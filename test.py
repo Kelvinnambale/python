@@ -1,3 +1,4 @@
+
 print("Python Syntax and first program")
 print("Hello world")
 
@@ -13,3 +14,17 @@ y=float(3)
 print(x)
 print(z)
 print(y)
+
+#Get type Function
+a=3
+b="John"
+
+print(type(a))
+print(type(b))
+
+#Python Variables
+x = "awesome"
+
+def myfunc():
+	print("Python is " + x)
+myfunc()
