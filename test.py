@@ -1,4 +1,4 @@
-"""
+
 print("Python Syntax and first program")
 print("Hello world")
 
@@ -37,16 +37,8 @@ def myfunc():
   x = "fantastic"
   print("Python is " + x)
 
-myfunc()
-
-print("Python is " + x)"""
-
-x = "awesome"
-
-def myfunc():
-  global x
-  x = "fantastic"
-
-myfunc()
+  myfunc()
 
 print("Python is " + x)
+
+
