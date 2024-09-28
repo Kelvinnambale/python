@@ -34,7 +34,7 @@ print("Net payable: ", amount-discount)
 """
 Created on Sat Sep 28 16:17:25 2024
 
-Python if elif statement execution
+Python if elif else statement execution
 """
 amount = int(input("Enter Amount: "))
 if amount<1000:
@@ -51,3 +51,21 @@ else:
     print("Discount",discount)
 
 print("Net payable: ", amount-discount)
+
+"""
+Created on Sat Sep 28 16:17:25 2024
+
+Python  nested if elif else statement execution
+"""
+num=int(input("Enter a number"))
+
+if num%2==0:
+    if num%3==0: 
+        print ("Divisible by 3 and 2") 
+    else: 
+        print ("divisible by 2 not divisible by 3")
+else:
+    if num%3==0: 
+        print ("divisible by 3 not divisible by 2") 
+    else: 
+        print  ("not Divisible by 2 not divisible by 3") 
