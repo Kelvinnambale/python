@@ -20,3 +20,13 @@ Created on Sat Sep 28 16:17:25 2024
 
 Python if else statement execution
 """
+amount=int(input("Enter Amount: "))
+
+if amount<1000:
+    discount=amount*0.05
+    print("Discount",discount)
+else:
+    discount=amount*0.10
+    print("Discount", discount)
+
+print("Net payable: ", amount-discount)
