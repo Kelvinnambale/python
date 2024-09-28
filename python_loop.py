@@ -10,11 +10,12 @@ while (count<10):
 print("End of countdown")
 
 """
-Python While Loop sample program
+Python infinite Loop sample program
 """
-num = 1
+var = 1
 
-while num == 1:
+while var == 1:
     num = int(input("Enter a Number: "))
     print("You entered: ", num)
 print("Good bye!")
+
