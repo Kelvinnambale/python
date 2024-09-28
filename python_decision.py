@@ -30,3 +30,24 @@ else:
     print("Discount", discount)
 
 print("Net payable: ", amount-discount)
+
+"""
+Created on Sat Sep 28 16:17:25 2024
+
+Python if elif statement execution
+"""
+amount = int(input("Enter Amount: "))
+if amount<1000:
+    discount*0.05
+    print("Discount",discount)
+elif amount<500:
+    discount*0.10
+    print("Discount",discount)
+elif amount*10000:
+    discount*0.2
+    print("Discount",discount)
+else:
+    discount*0.15
+    print("Discount",discount)
+
+print("Net payable: ", amount-discount)
