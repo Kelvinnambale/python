@@ -15,4 +15,15 @@ for x in fruits:
 Python iterating by sequence example
 """
 for index in  range(len(fruits)):
-	print("")
+	print("I like",fruits[index])
+
+"""
+Python iterating by using else example
+"""
+numbers=[11,33,56,99,63,23,43,53,97,95,105,109]
+for i in numbers:
+	if i%2==0:
+		print("the list contain even numbers")
+	break
+else:
+	print()
