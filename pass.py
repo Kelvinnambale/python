@@ -10,4 +10,4 @@ while True:
    try: 
       print (next(it)) 
    except StopIteration: 
-      sys.exit() #you have to import sys module for this 
+      sys.exit() #you have to import sys module for this .
