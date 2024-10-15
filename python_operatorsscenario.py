@@ -16,9 +16,20 @@ Keep your code clean and readable, and test it using the data we've provided,
 each time assigning it to the x variable (by hardcoding it).
  Don't be discouraged by any initial failures. Be persistent and inquisitive."""
 
-x =  # Hardcode your test data here.
+x = 0
 x = float(x)
 # Write your code here.
+y = 3 * x**3 - 2 * x** 2 + 3*x -1
 print("y =", y)
 
+x = 1
+x = float(x)
+# Write your code here.
+y = 3 * x**3 - 2 * x** 2 + 3*x -1
+print("y =", y)
 
+x = -1
+x = float(x)
+# Write your code here.
+y = 3 * x**3 - 2 * x** 2 + 3*x -1
+print("y =", y)
