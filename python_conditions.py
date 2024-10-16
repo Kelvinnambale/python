@@ -36,3 +36,14 @@ if third_no > largest_no:
     largest_no = third_no
     
 print("Largest number: ", largest_no)
+
+#LAB Comparison operators and conditional execution
+name = input("Enter flower name: ")
+
+if name == "Spathiphyllum":
+    print("Yes - Spathiphyllum is the best plant ever!")
+elif name == "spathiphyllum":
+    print("No, I want a big Spathiphyllum!")
+else:
+    print("Spathiphyllum! Not", name + "!")
+    
