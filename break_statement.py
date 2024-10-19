@@ -12,3 +12,18 @@ while var>0:
     if  var == 5:
         continue
 print('Goodbye')
+
+"""Break example"""
+for i in range(1,6):
+    if i==3:
+        break
+    print("Inside the loop")
+print("Outside the loop")
+
+#Continue example
+print("\nContinue Instruction")
+for i in range(1,6):
+    if i==3:
+        continue
+    print("inside the loop")
+print("Outside the loop")
