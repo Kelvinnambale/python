@@ -15,3 +15,9 @@ while swapped:
 
 print("\nSorted:")
 print(my_list)
+
+i = 0
+while i <= 3 :
+    i += 2
+    print("*")
+
