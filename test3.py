@@ -1,2 +1,11 @@
-my_list = [[0, 1, 2, 3] for i in range(2)]
-print(my_list[2][0])
+try:
+    value = input("Enter a value: ")
+    print(value/value)
+except ValueError:
+    print("Bad input...")
+except ZeroDivisionError:
+    print("Very bad input...")
+except TypeError:
+    print("Very very bad input...")
+except:
+    print("Booo!")
