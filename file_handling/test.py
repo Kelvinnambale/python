@@ -1,10 +1,4 @@
-f = open("employee.txt", "w")
+import os
 
-f.write("First Line \n")
-f.write("Second Line \n")
-f.write("Third Line \n")
+print(os.path.isfile("/home/nams/Downloads/readme.txt"))
 
-print("Last line", file=f)
-print("Last line", file=f)
-
-f.close()
