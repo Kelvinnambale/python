@@ -1,4 +1,4 @@
-f = open("readme.md", "r")
+f = open("employee.txt", "r")
 
 chunk = 10  # specify chunk size
 data = ""
